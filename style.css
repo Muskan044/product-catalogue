@@ -27,7 +27,7 @@ input{
 }
 .input i{
     background-color: rgb(222, 204, 70);
-    color: #fff;
+    color: #0c0c0c;
     padding: 9px;
     margin-left: -10px;
 }
@@ -36,8 +36,10 @@ input{
     padding: 0px 150px;
     width: 30px;
     height: 30px;
-
 }
 .cart img{
     padding-left: 10px;
+}
+.cart img:hover{
+    cursor: pointer;
 }
