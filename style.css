@@ -166,3 +166,34 @@ input{
     padding-top: 5px;
     padding-bottom: 15px;
 }
+/* watches */
+#watches{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.watches{
+    display: grid;
+    grid-template-columns: 40% 40% ;
+    justify-content: space-around;
+}
+.watches div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #91b5d3;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    box-shadow:  rgba(0,0,0,0.43) 0px 5px 10px;
+}
+.watches div img{
+    width: 200px;
+    height: 190px;
+}
+.watches p{
+    font-weight: bold;
+    font-size: 18px;
+    color: #0c4574;
+}
