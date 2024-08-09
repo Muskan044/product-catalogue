@@ -197,3 +197,22 @@ input{
     font-size: 18px;
     color: #0c4574;
 }
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: #91b5d3;
+}
+footer img{
+    width: 50px;
+    height: 30px;
+    padding: 10px;
+}
+.all-right{
+    text-align: center;
+    background-color: #91b5d3;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #292626bb;
+}
